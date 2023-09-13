@@ -1,0 +1,7 @@
+.menu__item{
+    list-style: none; /* tira as bolinhas pretas junto do link*/
+}
+
+.menu__item:last-child .menu__link { /* usado para identificar o ultimo link */
+    margin-right: 0; /*retira a margin do final do ultimo link*/
+}

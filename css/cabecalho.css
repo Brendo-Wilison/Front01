@@ -1,0 +1,15 @@
+
+.cabecalho{ /*Cabeçalho*/
+    align-items: center; /*centraliza os links no meio*/
+    background: #808080;
+    display: flex;
+    justify-content: space-between; /*todo conteudo foi para o lado direito da pagina totalmente*/
+    padding-left: 2rem; /*espaçamento na extremidade da esquerda*/
+    padding-right: 2rem;/*espaçamento na extremidade da direita*/
+    padding-top: 15px;
+ 
+
+}
+.logo{
+    width: 10%;
+}

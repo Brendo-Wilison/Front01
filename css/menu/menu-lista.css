@@ -1,0 +1,6 @@
+.menu__lista{
+    display: flex; /*alinhou o conteudo do menu*/
+    margin-bottom: 30px;
+    
+}
+

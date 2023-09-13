@@ -1,0 +1,12 @@
+.banner__title{
+    color: #fdfdfdfd;
+    font-family: Pacifico, cursive; /*Fonte da letra importada do google*/
+    font-size: 5.0565em; /*tamanho da fonte da letra*/
+    position: absolute; /*posição absoluta do titulo*/
+    left: 50%; /*ajuste da posição do titulo*/
+    top: 50%; /* ajuste da posição do titulo*/
+    text-align: center; /*ajuste de posição do titulo*/
+    text-shadow: 0 4px 4px rgba(0, 0, 0 , 75);
+    transform: translate(-50%, -50%);/* alinha o texto de forma que fique centralizado ao meio da tela*/
+    width: 100%; /*preencher a tela 100%, alinhada*/
+}

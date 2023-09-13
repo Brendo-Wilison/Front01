@@ -1,0 +1,5 @@
+.receita__descricao{
+    font-size: 1.1875rem; /*tamanho da letra*/
+    line-height: 1.5; /*altura da das linhas*/
+    text-align: justify; /* alinhamento do texto*/
+}

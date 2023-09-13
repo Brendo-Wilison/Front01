@@ -1,0 +1,6 @@
+.banner__imagem{
+    height: calc(100vh - 53px); /*Calculo para desconsiderar o tamanho do cabeçalho (fazendo com que a barra de rolagem mostre o resto dos conteúdos)*/
+     /*VH o tamanho da janela do navegador*/
+
+    width: 100%; /*largura da imagem com 100% da tela*/
+}

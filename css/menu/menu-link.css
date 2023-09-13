@@ -1,0 +1,17 @@
+
+.menu__link{
+    color: #fff; /*cor da letra*/
+    margin-right: 1.25rem; /*espaçamento entre as letras*/
+    text-decoration: none; /*retira toda decoração do texto (sublinhado)*/
+    text-transform: lowercase; /*transforma todas as letras em minuscula*/
+    font-size: 25px;
+}
+
+.menu__link.ativo{ /*Identificando o primeiro link por id para dar destaque nele*/
+    color: #333;
+    font-weight: bold;
+}
+
+.menu__link:hover{
+    text-decoration: underline; /*adiciona o sublinhado quando o mouse estiver por cima*/
+}

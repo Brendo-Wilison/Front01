@@ -1,0 +1,6 @@
+.receitas{
+    background: #e5e5e5;
+    display:flex ; /*para os elementos ficarem alinhados do lado do outro*/
+    flex-wrap: wrap; /* quebra os elementos de linhas incomuns*/
+    padding: 5rem 0 0 5rem;
+}

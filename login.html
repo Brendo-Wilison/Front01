@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png.png">
+    <link href="./css/normalize.css"  rel="stylesheet">
+    <link href="./css/reset.css"  rel="stylesheet">
+    <link href="./css/cabecalho.css" rel="stylesheet">
+    <link href="./css/banner/banner-img.css" rel="stylesheet">
+    <link href="./css/banner/banner-title.css" rel="stylesheet">
+    <link href="./css/banner/banner.css" rel="stylesheet">
+    <link href="./css/menu/menu-item.css" rel="stylesheet">
+    <link href="./css/menu/menu-link.css" rel="stylesheet">
+    <link href="./css/menu/menu-lista.css" rel="stylesheet">
+    <link href="./css/login/login.css" rel="stylesheet">
+    <title>Filmes e Séries</title>
+ 
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" alt="Filmes e Séries" src="./img/logo.png.png"/>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link " href="./index.html" >Início</a></li>
+                <li class="menu__item"><a class="menu__link ativo" href="./login.html">Entrar</a></li>
+                <li class="menu__item"><a class="menu__link" href="./tela.html">catálogo</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">opções</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <div class="container">
+        <img class="container_img" src="./img/logo.png.png">
+        <h1 class="title">Faça o castro para ter acesso à todos os filmes e séries.</h1>
+    </div>
+    <div class="formulario">    
+        <form id="form__box">
+            <label class="nome" for="eamil">Email:</label>
+            <input type="text" class="input-padrao" name="CNPJ" placeholder="Digite o seu email">
+            <label class="nome" for="usuário">Usuário:</label>
+            <input type="text" class="input-padrao" name="usuário" placeholder="Digite o seu nome de usuário">
+            <label class="nome" for="senha">Criar senha:</label>
+            <input type="text" class="input-padrao" name="senha" placeholder="Crie uma senha">
+            <input type="submit"   class="input-padrao" id="criar" value="Criar">
+            <button class="input-padrao" id="voltar">
+                <a class="botao" href="./index.html">Voltar</a>
+            </button>
+            
+        </form>
+    </div>
+    
+</body>
+</html>

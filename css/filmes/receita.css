@@ -1,0 +1,11 @@
+.receita{
+    background: #fdfdfd;
+    display:flex; /*comportamento flexbox */
+    flex-direction: column; /*coluna um em baixo da outra */
+    margin-bottom:  5rem; /*margin de baixo*/
+    margin-right: 5rem; /*espaçamento a direita*/
+    width: calc(25% - 5rem);
+}
+.receitas{
+    display: flex;
+}
